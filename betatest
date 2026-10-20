@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>LCX Editing Store</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f0f8ff; text-align: center; }
+    header { background: #ff9800; color: white; padding: 20px; border-radius: 8px; }
+    .paket { background: white; margin: 15px auto; padding: 15px; width: 250px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); }
+    button { background: #4caf50; color: white; border: none; padding: 10px; border-radius: 6px; cursor: pointer; }
+    button:hover { background: #388e3c; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Butuh Edit Video Tugas?</h1>
+    <p>Santai aja, LCX siap bantu!</p>
+  </header>
+
+  <div class="paket">
+    <h2>Paket Basic</h2>
+    <p>Potong & gabung video</p>
+  </div>
+  <div class="paket">
+    <h2>Paket Standard</h2>
+    <p>Musik + teks</p>
+  </div>
+  <div class="paket">
+    <h2>Paket Premium</h2>
+    <p>Efek kreatif & transisi keren</p>
+  </div>
+
+  <button onclick="pesan()">Chat via WhatsApp</button>
+
+  <script>
+    function pesan() {
+      alert("Halo! Klik OK untuk lanjut ke WhatsApp Ferry.");
+      window.location.href = "https://wa.me/6285895127798"; // ganti dengan nomor WA kamu
+    }
+  </script>
+</body>
+</html>
